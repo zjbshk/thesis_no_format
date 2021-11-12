@@ -1,0 +1,21 @@
+{
+	"logo": "logo.png",
+	"preload": "preload.js",
+	"version": "1.0.0",
+	"author": "zjb",
+	"homepage": "zjbshk.github.io",
+	"platform": ["win32", "darwin", "linux"],
+	"pluginSetting": {
+		"single": false
+	},
+	"features": [{
+		"code": "handle",
+		"explain": "去除空格、换行、替换全角数字字母等",
+		"cmds": [{
+			"type": "over",
+			"label": "论文纯复制",
+			"minLength": 1,
+			"maxLength": 10000
+		}]
+	}]
+}
